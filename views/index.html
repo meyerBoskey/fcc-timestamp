@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <title>Node SMS Texting</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h2>Timestamp Microservice</h2>
+        <form action="/:date" method="get">
+            <label>Date</label>
+            <input type="date" name="date" id="input">
+            <button type="submit" name="button" id="button">Submit</button>
+        </form>
+        <form action="/:date" method="get">
+            <label>Unix</label>
+            <input type="text" name="unix" id="input">
+            <button type="submit" name="button">Submit</button>
+        </form>
+        <p class="response"></p>
+    </div>
+
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <script type="text/javascript" src="js/main.js">
+    </script>
+</body>
+
+</html>
